@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__toggle_close" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}
+        </style>
+    </defs>
+    <circle id="prefix__타원_162" cx="12" cy="12" r="12" fill="none" data-name="타원 162" opacity="0.2"/>
+    <rect id="prefix__사각형_8415" width="1.455" height="15.516" class="prefix__cls-2" data-name="사각형 8415" rx=".727" transform="rotate(45 1.243 23.486)"/>
+    <rect id="prefix__사각형_8416" width="1.455" height="15.516" class="prefix__cls-2" data-name="사각형 8416" rx=".727" transform="rotate(135 5.485 12.213)"/>
+</svg>

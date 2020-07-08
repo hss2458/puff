@@ -1,0 +1,104 @@
+.header {
+  height: 80px;
+  background-color: #151a1d;
+
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .top-left {
+      .logo {
+        a {
+          padding: 21px 0 23px 0;
+          font-family: NotoSansCJKkr;
+          font-size: 24px;
+          font-weight: 900;
+          font-stretch: normal;
+          font-style: normal;
+          text-transform: uppercase;
+          line-height: 1.5;
+          letter-spacing: normal;
+          text-align: left;
+          color: #fff;
+        }
+      }
+    }
+
+    .top-right {
+      display: flex;
+      align-items: center;
+      height: 80px;
+
+      nav {
+        display: flex;
+
+        .nav-item {
+          a {
+            padding: 0 23px;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.64;
+            letter-spacing: normal;
+            text-align: right;
+            color: #9fa1a2;
+          }
+        }
+
+        .product {
+          position: relative;
+
+          a {
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.64;
+            letter-spacing: normal;
+            text-align: right;
+            color: #ffffff;
+
+            &::before {
+              content: "";
+              position: absolute;
+              top: 50%;
+              left: 83px;
+              right: 0;
+              bottom: 0;
+              background: url("../../images/png/gnb_dropdown_open.png") no-repeat;
+            }
+          }
+        }
+      }
+
+      .my-account {
+        .user {
+          margin: 0 0 0 107px;
+          span {
+            a {
+              font-family: Roboto;
+              font-size: 14px;
+              font-weight: normal;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: 2.64;
+              letter-spacing: normal;
+              text-align: right;
+              color: #ffffff;
+            }
+          }
+
+          img {
+            margin: 0 0 0 10px;
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+}
