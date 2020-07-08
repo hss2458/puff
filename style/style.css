@@ -485,7 +485,7 @@ html, body {
       .header .top-header .top-right nav {
         display: flex; }
         .header .top-header .top-right nav .nav-item a {
-          padding: 0 23px;
+          padding: 40px 23px;
           font-family: Roboto;
           font-size: 14px;
           font-weight: normal;
@@ -763,7 +763,7 @@ html, body {
 .manual {
   padding: 150px 0; }
   .manual .item {
-    padding: 0 0 150px 0;
+    margin: 0 0 150px 0;
     display: flex;
     justify-content: space-between; }
     .manual .item:nth-child(2) {
@@ -772,14 +772,14 @@ html, body {
       width: 29%; }
       .manual .item .txt span {
         display: flex;
-        padding-bottom: 14px;
+        margin-bottom: 14px;
         color: #14cac1;
         font-family: Roboto;
         font-size: 18px;
         font-weight: 900;
         line-height: 1.06; }
       .manual .item .txt h2 {
-        padding-bottom: 30px;
+        margin-bottom: 30px;
         font-family: Roboto;
         font-size: 42px;
         font-weight: 900;
