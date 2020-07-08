@@ -529,7 +529,114 @@ html, body {
           width: 30px;
           height: 30px; }
 
+.footer {
+  padding: 140px 0 0;
+  background: #1b2227; }
+  .footer .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .footer .content .top {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .footer .content .top .down-btn a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 246px;
+        height: 60px;
+        border-radius: 6px;
+        background: #14cac1; }
+        .footer .content .top .down-btn a img {
+          padding-right: 10px; }
+        .footer .content .top .down-btn a span {
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: bold;
+          line-height: 2.06;
+          letter-spacing: normal;
+          text-align: left;
+          color: #151a1d; }
+      .footer .content .top span {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 2.64;
+        letter-spacing: normal;
+        color: #777777; }
+      .footer .content .top p {
+        margin-top: 59px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.54;
+        color: #ffffff; }
+      .footer .content .top .popup {
+        position: relative;
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1060px;
+        height: 48px;
+        background: #00befd;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 3.08;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        border-radius: 8px 8px 0 0; }
+        .footer .content .top .popup a img {
+          position: absolute;
+          top: 27%;
+          right: 11px;
+          display: flex;
+          width: 24px;
+          height: 24px; }
+  .footer footer {
+    background: #000000 url("../../images/png/download_bg_parttern_1.png") 0 0 no-repeat;
+    height: 150px; }
+    .footer footer .box {
+      position: relative; }
+      .footer footer .box .left .list {
+        display: flex;
+        justify-content: center; }
+        .footer footer .box .left .list .item a {
+          display: flex;
+          padding: 50px 35px 0;
+          text-transform: uppercase;
+          color: #ffffff; }
+      .footer footer .box .left span {
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 3.7;
+        color: #555555; }
+      .footer footer .box .right {
+        position: absolute;
+        top: 50px;
+        right: 50px; }
+        .footer footer .box .right .language {
+          display: flex;
+          align-items: center;
+          font-family: Roboto;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 3.08;
+          letter-spacing: normal;
+          text-align: left;
+          color: #ffffff; }
+          .footer footer .box .right .language span {
+            margin-right: 15px; }
+
 .visual {
+  padding-bottom: 30px;
   background: #151a1d url("../../images/png/main_bg_parttern_1.png") 50% 50% no-repeat; }
   .visual .content {
     padding: 72px 0;
@@ -542,8 +649,6 @@ html, body {
         font-family: Roboto;
         font-size: 48px;
         font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 1.31;
         letter-spacing: normal;
         text-align: left;
@@ -552,8 +657,6 @@ html, body {
         font-family: Roboto;
         font-size: 18px;
         font-weight: 300;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 1.89;
         letter-spacing: normal;
         text-align: left;
@@ -588,8 +691,6 @@ html, body {
         font-family: Roboto;
         font-size: 14px;
         font-weight: 300;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 2.64;
         letter-spacing: normal;
         text-align: left;
@@ -598,8 +699,6 @@ html, body {
       font-family: Roboto;
       font-size: 16px;
       font-weight: 300;
-      font-stretch: normal;
-      font-style: normal;
       line-height: 2.31;
       letter-spacing: normal;
       text-align: left;
@@ -627,5 +726,75 @@ html, body {
           background: #ddb418; }
         .visual .slide-btn .btn a:nth-child(3) {
           background: #7167ff; }
+
+.sub-menu {
+  background: #1b2227; }
+  .sub-menu .container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px; }
+    .sub-menu .container .content .menu-item {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      width: 33.33%; }
+      .sub-menu .container .content .menu-item span {
+        color: #ffffff;
+        text-transform: uppercase; }
+        .sub-menu .container .content .menu-item span::before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0px;
+          left: 28%;
+          right: 67%;
+          bottom: 0;
+          background: #14cac1; }
+        .sub-menu .container .content .menu-item span:nth-child(2)::before {
+          background: #7167ff; }
+        .sub-menu .container .content .menu-item span:nth-child(3)::before {
+          background: #ddb418; }
+
+.manual {
+  padding: 150px 0; }
+  .manual .item {
+    padding: 0 0 150px 0;
+    display: flex;
+    justify-content: space-between; }
+    .manual .item:nth-child(2) {
+      flex-direction: row-reverse; }
+    .manual .item .txt {
+      width: 29%; }
+      .manual .item .txt span {
+        display: flex;
+        padding-bottom: 14px;
+        color: #14cac1;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 1.06; }
+      .manual .item .txt h2 {
+        padding-bottom: 30px;
+        font-family: Roboto;
+        font-size: 42px;
+        font-weight: 900;
+        line-height: 1.29;
+        letter-spacing: normal;
+        color: #000000; }
+      .manual .item .txt p {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.7;
+        letter-spacing: normal;
+        color: #222222; }
+    .manual .item .img img {
+      display: flex;
+      width: 760px;
+      height: 500px;
+      border-radius: 6px;
+      box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2); }
 
 /*# sourceMappingURL=style.css.map */

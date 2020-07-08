@@ -1,3 +1,146 @@
 .footer {
+  padding: 140px 0 0;
+  background: #1b2227;
 
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .down-btn {
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 246px;
+          height: 60px;
+          border-radius: 6px;
+          background: #14cac1;
+
+          img {
+            padding-right: 10px;
+          }
+
+          span {
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 2.06;
+            letter-spacing: normal;
+            text-align: left;
+            color: #151a1d;
+          }
+        }
+      }
+
+      span {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 2.64;
+        letter-spacing: normal;
+        color: #777777;
+      }
+
+      p {
+        margin-top: 59px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.54;
+        color: #ffffff;
+      }
+
+      .popup {
+        position: relative;
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1060px;
+        height: 48px;
+        background: #00befd;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 3.08;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        border-radius: 8px 8px 0 0;
+
+        a {
+          img  {
+            position: absolute;
+            top: 27%;
+            right: 11px;
+            display: flex;
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    background: #000000 url("../../images/png/download_bg_parttern_1.png") 0 0 no-repeat;
+    height: 150px;
+
+    .box {
+      position: relative;
+      .left {
+        .list {
+          display: flex;
+          justify-content: center;
+
+          .item {
+            a {
+              display: flex;
+              padding: 50px 35px 0;
+              text-transform: uppercase;
+              color: #ffffff;
+            }
+          }
+        }
+
+        span {
+          margin-top: 18px;
+          display: flex;
+          justify-content: center;
+          font-family: Roboto;
+          font-size: 10px;
+          font-weight: 300;
+          line-height: 3.7;
+          color: #555555;
+        }
+      }
+
+      .right {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        .language {
+          display: flex;
+          align-items: center;
+          font-family: Roboto;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 3.08;
+          letter-spacing: normal;
+          text-align: left;
+          color: #ffffff;
+
+          span {
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
 }
