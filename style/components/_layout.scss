@@ -5,7 +5,11 @@ html, body {height:100%;}
 }
 
 .container {
-    max-width: 1230px;
+    max-width: 1040px;
     margin: 0 auto;
     padding: 0 15px;
+
+    @include screen-lg {
+        max-width: 800px;
+    }
 }
